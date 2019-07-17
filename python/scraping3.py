@@ -1,3 +1,5 @@
+# pythonの絵本p181参照
+# 必ず2つのモジュールをインポートする
 import requests
 from bs4 import BeautifulSoup
 

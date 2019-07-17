@@ -1,3 +1,4 @@
+# csvモジュールでcsvの書き込み
 import csv
 
 l = []
