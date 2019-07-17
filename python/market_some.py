@@ -32,7 +32,7 @@ for i in range(num):
     # \d : 10進数の任意の数字。
     url = re.sub(r"\d", "", url)
     url = url + str(stock_num[i])
-    print("URL:" + url)
+    # print("URL:" + url)
 
     # webページの情報を取得して、解析する
     req = requests.get(url) 
