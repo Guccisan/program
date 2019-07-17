@@ -52,7 +52,7 @@ for i in range(num):
     # タグを削除して出力
     print(company.text + ':' + book.text)
 
-    # listに会社名と株価を追加
+    # listに会社名と業種と株価を追加
     l.append([company.text, book.text])
 
 
