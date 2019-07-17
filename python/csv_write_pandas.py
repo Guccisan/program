@@ -16,4 +16,4 @@ print(df1)
 
  # csvファイルに出力
  # ヘッダー（列名）、インデックス（行名）のありなしは引数header, indexにTrue or Falseで指定する。
-df1.to_csv('to_csv_out1.csv', header=False, index=False)
+df1.to_csv('output/csv_write_pandas_out.csv', header=False, index=False)

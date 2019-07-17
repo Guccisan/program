@@ -5,7 +5,7 @@ l = []
 l.append(100)
 l.append(200)
 
-with open('techacademy.csv', 'w') as csvfile:
+with open('output/csv_write_out.csv', 'w') as csvfile:
     writer = csv.writer(csvfile, lineterminator='\n')
     writer.writerow([0, '目標', '手段'])
     writer.writerow([1, '未経験転職', 'テックアカデミーのJavaエンジニアコース'])
