@@ -10,11 +10,6 @@ url = 'https://www.nikkei.com/nkd/company/?scode=6954'
 req = requests.get(url) 
 soup = BeautifulSoup(req.text, 'html.parser')
 
-# # <dd class="m-stockPriceElm_value now"> ...<span class="m-stockPriceElm_value_unit">...</span></dd> を抽出
-# for book in soup.findAll('dd', {'class':'m-stockPriceElm_value now'}):
-#     # タグを付けたまま出力
-#     print(book)
-
 #会社名を取得
 company = soup.find('h1', {'class':'m-headlineLarge_text'})
 
