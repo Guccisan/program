@@ -1,10 +1,6 @@
 #csvの読み書きするのに必要
 import pandas as pd
 
-# df = pd.read_csv('input/input.csv', index_col=0)
-# df.to_csv('to_csv_out.csv')
-# print(df)
-
 # listに文字列を追加
 calendar = [['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'], ['a', 'b', 'c', 'd', 'e', 'f', 'g']]
 
