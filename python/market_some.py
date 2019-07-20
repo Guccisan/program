@@ -1,4 +1,4 @@
-# ファナックの株価を取得する
+# 6社の株価を取得する
 # 必ず２つのモジュールをインポートすること
 import requests
 from bs4 import BeautifulSoup
@@ -24,7 +24,7 @@ print("Company" + ":" + "Stock price")
 
 
 for i in range(num):
-    # 10秒待機
+    # 5秒待機
     time.sleep(5)
 
     # 数字を削除して文字を追加
