@@ -24,8 +24,8 @@ print("Company" + ":" + "Stock price")
 
 
 for i in range(num):
-    # 5秒待機
-    time.sleep(5)
+    # 10秒待機
+    time.sleep(10)
 
     # 数字を削除して文字を追加
     # re.sub(正規表現パターン, 置換後文字列, 置換したい文字列)
